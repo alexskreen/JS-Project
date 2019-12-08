@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="css/styles.css">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
   <script src="js/scripts.js" charset="utf-8"></script>
-    <meta charset="utf-8">
-    <title>Which coding language should you start with?</title>
-  </head>
-  <body>
-    <h1>Which coding language should you start with?</h1>
-    <div class="container">
-      <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-    Default checkbox
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-  <label class="form-check-label" for="defaultCheck2">
-    Disabled checkbox
-  </label>
-</div>
+  <meta charset="utf-8">
+  <title>Which coding language should you start with?</title>
+</head>
+
+<body>
+  <h1>Welcome new developers!</h1>
+  <div class="container"id="ofage">
+    <h2>Which coding language should you start with?</h2>
+    <p>First, tell us about yourself</p>
+    <form class="form-inline">
+  <label class="sr-only" for="inlineFormInputName2">Name</label>
+  <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
     </div>
-  </body>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+  </div>
+
+  <div class="form-check mb-2 mr-sm-2">
+    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+    <label class="form-check-label" for="inlineFormCheck">
+      Remember me
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+    <h2>Which aspect of coding interests you the most?</h2>
+    <div class="checkbox">
+  <label><input type="checkbox" value="">Option 1</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">Option 2</label>
+</div>
+<div class="checkbox disabled">
+  <label><input type="checkbox" value="" disabled>Option 3</label>
+</div>
+  </div>
+  <div class="container">
+      <div id="underage">
+        <p>We're sorry, but you aren't old enough to enroll in our coding program.</p>
+        <p><a href="https://codakid.com/coding-for-kids-the-ultimate-guide-for-parents-2/">Click here to explore other options!</a></p>
+      </div>
+    </div>
+    <div class="container">
+      <div id="samplepicture"
+        <p><img src="https://www.emojirequest.com/images/ThumbsDownEmoji.jpg" alt="Thumbs down dude!"></p>
+      </div>
+    </div>
+</body>
+
 </html>
