@@ -1,8 +1,8 @@
-#ofage, #underage, #samplepicture, #typeOne, #typeTwo, #typeThree, #typeFour, #typeFive{
+#ofage, #underage, #samplepicture, #typeOne, #typeTwo, #typeThree, #typeFour, #typeFive {
   display: none;
 }
 
-body{
+body {
   float: left;
   background: #BDB76B;
 }
