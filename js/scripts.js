@@ -1,5 +1,5 @@
 $(document).ready(function()  {
-  var age = parseInt(prompt("How old are?!"));
+  var age = parseInt(prompt("How old are you?"));
 
 if (age === 18) {
   alert("Getting and early start on your journey to becoming a developer! Congrats!");
