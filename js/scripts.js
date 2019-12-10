@@ -1,5 +1,5 @@
 $(document).ready(function()  {
-  var age = parseInt(prompt("How old is you?!"));
+  var age = parseInt(prompt("How old are?!"));
 
   if (age === 18) {
     alert("Getting and early start on your journey to becoming a developer! Congrats!");
@@ -13,4 +13,9 @@ $(document).ready(function()  {
     $('#underage').show();
     $('#samplepicture').show();
   }
+  if (interest === "2" && type === "2" && company === "2") {
+  $(".typeOne, .typeThree").hide();
+  $(".typeFour, .typeFive").hide();
+  $(".typeTwo").show();
+}
 });
